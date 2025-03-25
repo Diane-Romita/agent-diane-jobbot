@@ -21,4 +21,4 @@ jobs:
         run: pip install feedparser requests
 
       - name: Run Agent Diane
-        run: python agent_diane_jobbot.py
+        run: python agent-diane-jobbot.py
