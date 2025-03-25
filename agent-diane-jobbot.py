@@ -58,3 +58,12 @@ if __name__ == "__main__":
     for job in jobs:
         success = post_to_slack(job)
         print(f"Posted: {job['title']} – {'✅' if success else '❌'}")
+
+    # TEMP: Force a test post to confirm Slack works
+    test_job = {
+        "title": "🚨 Test Alert: VP of Strategy at DreamCo",
+        "link": "https://example.com/job",
+        "summary": "Test post for debugging Slack webhook",
+        "published": "Now"
+    }
+    post_to_slack(test_job)
