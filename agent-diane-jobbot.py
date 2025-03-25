@@ -10,7 +10,7 @@ import feedparser
 import requests
 
 # === CONFIGURATION ===
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
+SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
 RSS_FEEDS = [
     "https://www.linkedin.com/jobs-guest/jobs/rss/?keywords=VP%20Salesforce",
     "https://www.linkedin.com/jobs-guest/jobs/rss/?keywords=Revenue%20Operations",
